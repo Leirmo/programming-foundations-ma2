@@ -24,12 +24,11 @@ for (var i = 0; i < pets.length; i++) {
 }
 
 //Question 2
-
-function logWord(Word) {
+function logWord(word) {
   console.log(word);
 }
 
-logWord(true);
+logWord("Please pass a boolean value in");
 
 //Question 3
 var heading = document.querySelector("h2");
